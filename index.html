@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <title>Forum</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><img src='1.jpg' alt="zdj" /></li>
+            <li><span class="name">dr Nowak</span></li>
+
+            <li class="spans"> MEMBER FOR </li>
+            //kod php 5 miesiecy//
+
+            <li class="spans"> LAST SEEN </li>
+            //kod php saturday afternoon//
+
+            <li class="spans"> ACTIVITY LEVEL</li>
+            //php//
+            <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></li>
+        </ul>
+    </header>
+    <div class='section'>
+        <ul>
+            <li class="lobster"> How it all started</li>
+            <li class="spans"> THAT'S WHERE WE HAVE BEEN THESE 5 MONTS AGO</li>
+        </ul>
+    </div>
+
+    <div class="label">
+        <div class="rectangle rectangle1">
+            <h2>46 peers</h2>
+        </div>
+        <div class="rectangle rectangle2">
+            <h2>29 discusions</h2>
+        </div>
+        <div class="rectangle rectangle3">
+            <h2>19 findings</h2>
+        </div>
+        <div class="rectangle rectangle4">
+            <h2>10 questions</h2>
+        </div>
+    </div>
+    <div class=section2>
+        <ul>
+            <li class="spans"> WHO JOINED THE PLATFORM THAT SAME PERIOD</li>
+        </ul>
+    </div>
+
+    <table class="label2">
+        <tr>
+            <td class="photo"><img src="2.jpg" alt="zdj"></td>
+            <td class="photo"><img src="3.jpg" alt="zdj"></td>
+            <td class="photo"><img src="4.jpg" alt="zdj"></td>
+        </tr>
+        <tr>
+            <td class="name">S.E.N. <br> Waweru</td>
+            <td class="name">Patricia</td>
+            <td class="name">Joseph <br> Aluoh</td>
+        </tr>
+    </table>
+
+
+    <div id="demo"></div>
+    <!-- kontener-->
+
+    <div class=section2>
+        <ul>
+            <li class="spans"> THE HOTTEST DISCUSSION THESE DAYS</li>
+        </ul>
+        <img src="5.jpg" alt="zdj"><br>
+        <div class="spans">
+            <span class="name"> Alicia </span> <span class="fontSection2">FOUND THE GUARDIAN ARTICLE </span><br>
+            <span class="fontSection3">Vegan diet to stop diabetes progress</span>
+        </div>
+    </div>
+    <script>
+        var myVar = setInterval(function() {
+            myTimer()
+        }, 1000);
+
+        function myTimer() {
+            var d = new Date();
+            var t = d.toLocaleTimeString();
+            //if (t == '10:26:40 PM') {
+            //  document.getElementById("demo").innerHTML = t;
+            //   return t;
+            //  }
+            //var zmienna = ;
+            if (t == '10:55:50 PM') {
+                $(".rectangle1").toggleClass("rec5");
+            }
+            document.getElementById("demo").innerHTML = t;
+        }
+
+    </script>
+</body>
+
+</html>

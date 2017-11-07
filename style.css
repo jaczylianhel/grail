@@ -1,0 +1,146 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #A28592;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header ul,
+.section ul,
+.section2 ul {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+header li,
+.section li,
+.section2 li {
+    list-style-type: none;
+}
+
+.name {
+    color: #3E37BA;
+    font-weight: 900;
+}
+
+.spans {
+    color: #A28592;
+    font-size: 0.9rem;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.section {
+    text-align: center;
+}
+
+.section .lobster {
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+}
+
+.label {
+    position: relative;
+    margin-left: 60px;
+    margin-top: 10px;
+    height: 40vh;
+
+}
+
+.rectangle {
+    float: left;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: #E6F3FE;
+    margin: 0;
+    margin-right: 10px;
+    display: table;
+}
+
+.rectangle h2 {
+
+    font-size: 1.2rem;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.rectangle1,
+.rectangle3 {
+    transform: rotate(45deg);
+}
+
+.rectangle2 {
+    transform: rotate(-5deg);
+}
+
+.rectangle4 {
+    transform: rotate(5deg);
+}
+
+.rectangle1 {
+    transform: rotate(45deg);
+}
+
+.section2 {
+    text-align: center;
+}
+
+.section2 img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.fontSection2 {
+    font-size: 0.8rem;
+}
+
+.fontSection3 {
+    font-size: 1.3rem;
+    font-family: 'Lobster', cursive;
+    margin-top: 5px;
+    color: #3E37BA;
+}
+
+.label2 {
+    position: relative;
+    margin-left: 30px;
+}
+
+.photo {
+    width: 85px;
+    height: 85px;
+    background-color: #E6F3FE;
+    margin: 0;
+    margin-right: 2vh;
+}
+
+.label2 img {
+    height: 60px;
+    width: 60px;
+    border-radius: 25px;
+
+}
+
+.label2 td {
+    text-align: center;
+}
+
+.rec5 {
+    transform: rotate(90deg);
+}
